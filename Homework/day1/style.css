@@ -71,3 +71,28 @@ body{
     height:90px;
     animation: runLeft ease-out infinite 8s;
 }*/
+
+
+body{background-color: whitesmoke;}
+     	h2{text-decoration: underline;
+			text-align: center;
+			font-size: 250%;
+		   color: royalblue;}
+		h3{text-indent:5px ;
+		   font-size:300% ;
+		   color:rosybrown ;}
+	p{font-size: 200%; color: darkgreen;}
+	#Patterns{color: royalblue;}
+	.flist{text-decoration: underline;} 
+	#t1{color: greenyellow; text-decoration: underline;}
+	.t2{color: green; text-decoration: underline;}
+	#pg1{font-style: italic; color: brown;}
+	.pg2{font-style: oblique; color: royalblue;}
+	      #d1{border: solid lightblue;}
+		   #d2{border: solid lightpink;}
+		   #d3{border: solid lightgreen;}
+		   #d4{border: solid orangered;}
+		  #d5{border: solid blanchedalmond;}
+		  #d1,#d2,#d3,#d4,#d5{border: dashed;}
+		  a{font-size: 30px;}
+		  li{font-size: 25px;}
