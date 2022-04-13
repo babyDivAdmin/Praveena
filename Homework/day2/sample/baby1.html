@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title web page-->
+    <title>BabyShopping</title>
+    <!--css link -->
+    <link rel="stylesheet" href="baby1.css"> 
+</head>
+<body>
+    <!--header section start-->
+    <header>
+        <div class="header1">
+            <img src="https://cdn.w600.comps.canstockphoto.com/baby-shop-logo-vector-symbol-with-clip-art-vector_csp85754160.jpg" alt="BabyShop" class="logo">
+            <h1 class="name">BabyShopping</h1>
+            <form action="" class="search-box-container">
+                 <input type="search" id="search-box" placeholder="search here.." >
+                 <label for="search-box" class="b-search"></label>
+            </form>
+        </div>
+
+        <div class="header2">
+          
+            <nav class="navbar">
+                <!-- <ul> -->
+                <a href="#home">Home</a>
+                <a href="#category">Category</a>
+                <a href="#products">Products</a>
+                <a href="#deal">Deals</a>
+                <a href="contact">Contact</a> 
+              <!-- </ul>           -->
+            </nav>
+       
+
+        <div class="icon">
+          <a href="#cart"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb92mDlwGmOqA6s_iq02T9GqzJAFQ1tV5MnA&usqp=CAU" alt="cart" width="5%" height="5%"></a>
+          <a href="#login"><img src="data:image/png;base64,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" alt="login" width="5%" height="5%"></a> 
+         </div>
+        </div>
+
+
+    </header>
+<!--header section end-->
+
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div id="image">
+        <div class="baby_img">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaXr6CTz6YytDcZwVmLw9s4LU6xvbSTNZn3g&usqp=CAU" alt="baby_image" width=50% height="50%">
+        </div>
+        <div class="content_img">
+            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/online-baby-stores-1592242393.jpg?crop=1xw:1xh;center,top&resize=1200:*" alt="content image"width=50% height="50%"
+        </div>
+    </div>
+    <div class="content">
+        <h3>All baby products you need from start.</h3>
+        <p>Buying gorgeous gifts for a beautiful baby is one of life’s pleasures.But too many babies in the world have no one to give them gifts, or anything else.
+           So at From Babies with Love, we do things differently.Every penny of profit from our unique, ethically sourced designs goes to orphaned and abandoned children around the world.
+           In safe, happy places, vulnerable children can grow up in a loving family. We started this company to make a difference. And with every gift that you buy, you are too.
+           A heartfelt thank you.From Babies with Love x 
+        </p>
+        <a href="#" class="btn">Shop Now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+       
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--java script file link-->
+ <script src="baby.jss"></script>   
+</body>
+</html>

@@ -20,13 +20,13 @@ body{
 .navP1{
     margin:1em;
     width:22%;
-    border:solid rgb(200, 187, 66);
+    border:solid rgb(34, 34, 32);
     font-size:12px;
     padding:8px;
     border-radius:22px;
     border-width:.2px;
     text-align:center;
-    text-decoration: brown;
+    text-decoration: rgb(167, 94, 187);
     
 }
 .navP1:hover{

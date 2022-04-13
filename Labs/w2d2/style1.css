@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+
+.navContainer{
+    border: solid rgb(177, 156, 215);
+    height: 110px;
+    border-width: .2px;
+    display: flex;
+    justify-content: space-between;
+    /* font-size: 12px; */
+}
+.navTag{
+    border: solid peru;
+    border-width: .2px;
+    padding: 8px;
+    height: 15px;
+}
+.navTag:hover{
+    border: solid peru;
+    background-color: lemonchiffon;
+    border-width: .2px;
+    padding: 8px;
+    height: 15px;
+}
+.nikeLogo
+{
+    height: 90px;
+}
+
